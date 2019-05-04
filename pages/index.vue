@@ -1,3 +1,4 @@
+<script src="../../../Downloads/Nuxt.js/nuxtExercise/nuxt.config.js"></script>
 <template>
   <section class="container">
     <div>
@@ -19,6 +20,8 @@
           target="_blank"
           class="button--grey"
         >GitHub</a>
+        <el-button type="primary">主要按钮</el-button>
+        <van-button loading type="danger" loading-text="加载中..." />
       </div>
     </div>
   </section>
