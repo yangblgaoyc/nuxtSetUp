@@ -1,10 +1,9 @@
 <template>
   <section class="container">
     <div>
-      <nuxt-link to="/index1">首页1</nuxt-link>
-      <logo />
+      <nuxt-link to="/">首页</nuxt-link>
       <h1 class="title">
-        nuxtSetUp
+        nuxtSetUp1
       </h1>
       <h2 class="subtitle">
         My gnarly Nuxt.js project
@@ -24,19 +23,16 @@
         <van-button loading type="danger" loading-text="加载中..." />
         <div>{{message}}</div>
         <img style="width:100%" src="/images/j20.jpg"/>
+
       </div>
     </div>
   </section>
 </template>
 
 <script>
- import Logo from '~/components/Logo.vue'
+
 
 export default {
-   components: {
-     Logo
-   },
-
   data () {
     return {
       message: '11111'

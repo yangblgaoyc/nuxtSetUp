@@ -22,7 +22,10 @@ module.exports = {
   /*
   ** Customize the progress-bar color
   */
-  loading: { color: '#fff' },
+  loading: {
+    color: 'blue' ,
+    height: '2px'
+  },
 
   /*
   ** Global CSS
@@ -67,15 +70,15 @@ module.exports = {
     // See https://github.com/nuxt-community/axios-module#options
   },
 
-  // proxy: {
-  //   '/api/': {
-  //     target: 'https://h5api.zhefengle.cn',//这个网站是开源的可以请求到数据的
-  //     pathRewrite: {
-  //       '^/api/': '/',
-  //       changeOrigin: true
-  //     }
-  //   }
-  // },
+  proxy: {
+    '/api/': {
+      target: 'https://h5api.zhefengle.cn',//这个网站是开源的可以请求到数据的
+      pathRewrite: {
+        '^/api/': '/',
+        changeOrigin: true
+      }
+    }
+  },
 
 
   /*

@@ -37,9 +37,9 @@
   },
   "postcss": {
     "plugins": {
-      "postcss-px2rem-exclude":{
+      "postcss-px2rem-exclude": {
         "remUnit": 75,
-        "exclude":"/node_modules|floder_name/i"
+        "exclude": "/node_modules|floder_name/i"
       }
     }
   }
